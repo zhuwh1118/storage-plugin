@@ -1,8 +1,6 @@
 package main
 
 import (
-	"fmt"
-	"io/ioutil"
 	"os"
 
 	. "github.com/phyxdown/nephele-storage"

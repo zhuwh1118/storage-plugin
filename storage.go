@@ -7,6 +7,8 @@ type Fetcher interface {
 type KV [2]string
 
 type File interface {
+    Key() string
+
 	Exist() (bool, string, error)
 
 	Meta() (Fetcher, error)
@@ -29,7 +31,7 @@ type Iterator interface {
 type Storage interface {
 	File(string) File
 
-	Iterator(string) Iterator
+	Iterator(prefix string, lastKey string) Iterator
 
 	StoreFile(string, []byte, ...KV) (string, error)
 }
