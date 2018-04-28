@@ -10,7 +10,7 @@ import (
 
 func main() {}
 
-func Create(config map[string]string) Storage {
+func New(config map[string]string) Storage {
 	endpoint := config["endpoint"]
 	bucketname := config["bucketname"]
 	accessKeyId := config["accessKeyId"]
@@ -31,5 +31,7 @@ func Create(config map[string]string) Storage {
 		return nil
 	}
 
-	return &storage{bucket}
+	return &storage{
+		bucket: bucket,
+	}
 }

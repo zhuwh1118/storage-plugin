@@ -7,7 +7,7 @@ type Fetcher interface {
 type KV [2]string
 
 type File interface {
-    Key() string
+	Key() string
 
 	Exist() (bool, string, error)
 
@@ -23,7 +23,7 @@ type File interface {
 }
 
 type Iterator interface {
-	Next() File
+	Next() (File, error)
 
 	LastKey() string
 }

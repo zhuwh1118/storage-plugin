@@ -22,7 +22,7 @@ func (s *storage) Iterator(prefix string, lastKey string) Iterator {
 		bucket:  s.bucket,
 		prefix:  prefix,
 		lastKey: lastKey,
-		files:   make(chan File, 100),
+		files:   make(chan *file, 100),
 	}
 	go iter.syncing()
 	return iter

@@ -12,6 +12,7 @@ type file struct {
 	bucket *oss.Bucket
 	key    string
 	blob   []byte
+	err    error
 }
 
 func (f *file) Key() string {
