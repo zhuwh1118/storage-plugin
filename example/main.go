@@ -29,5 +29,5 @@ func main() {
 	})
 
 	fmt.Println(s.File("[filename]").Bytes())
-	fmt.Println(s.Iterator("[prefix]", "lastKey").Next())
+	fmt.Println(s.Iterator("[prefix]", "[lastKey]").Next())
 }
