@@ -3,9 +3,9 @@ package main
 import (
 	"time"
 
-	. "github.com/phyxdown/nephele-storage"
+	. "github.com/ctripcorp/nephele/storage"
 
-	"github.com/phyxdown/aliyun-oss-go-sdk/oss"
+	"github.com/ctrip-nephele/aliyun-oss-go-sdk/oss"
 )
 
 type iterator struct {

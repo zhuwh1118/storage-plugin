@@ -2,10 +2,10 @@ package main
 
 import (
 	"bytes"
-	. "github.com/phyxdown/nephele-storage"
+	. "github.com/ctripcorp/nephele/storage"
 	"io/ioutil"
 
-	"github.com/phyxdown/aliyun-oss-go-sdk/oss"
+	"github.com/ctrip-nephele/aliyun-oss-go-sdk/oss"
 )
 
 type file struct {

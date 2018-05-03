@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/phyxdown/aliyun-oss-go-sdk/oss"
+	"github.com/ctrip-nephele/aliyun-oss-go-sdk/oss"
 )
 
 type fetcher struct {
