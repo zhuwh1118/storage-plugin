@@ -1,2 +1,5 @@
 *.local
 *.so
+
+/vendor/*
+!/vendor/vendor.json

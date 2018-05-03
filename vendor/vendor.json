@@ -1,0 +1,19 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "1YMjwX/PAyvwjK+5mhLM96oorUU=",
+			"path": "github.com/ctrip-nephele/aliyun-oss-go-sdk/oss",
+			"revision": "fecfed336ba0d35f9e84de2bacfc90f0d2b17262",
+			"revisionTime": "2018-05-03T06:49:43Z"
+		},
+		{
+			"checksumSHA1": "ObtQGd3DgN4FhVD7ERzc2XYDAWw=",
+			"path": "github.com/ctripcorp/nephele/storage",
+			"revision": "c92f3390f3a8fc6e3614a633f1d6d7b3c60e779f",
+			"revisionTime": "2018-04-20T07:38:17Z"
+		}
+	],
+	"rootPath": "github.com/phyxdown/nephele-storage"
+}
